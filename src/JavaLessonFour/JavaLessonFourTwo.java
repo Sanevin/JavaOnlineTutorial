@@ -1,0 +1,23 @@
+package JavaLessonFour;
+import java.util.Scanner;
+
+public class JavaLessonFourTwo {
+	
+	static Scanner userInput = new Scanner(System.in);
+	
+	public static void main(String[] args){
+		
+		String contYorN = "Y";
+		
+		int h = 1;
+		
+		while (contYorN.equalsIgnoreCase("y")){
+			System.out.println(h);
+			System.out.print("Continue y or n? ");
+			contYorN = userInput.nextLine();
+			h++;
+		}
+		
+	}
+
+}
