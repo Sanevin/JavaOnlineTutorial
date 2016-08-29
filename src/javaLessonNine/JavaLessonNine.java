@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class JavaLessonNine {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args){
 		
 		int[] randomArray;
@@ -74,6 +75,24 @@ public class JavaLessonNine {
 			System.out.print(row);
 		}
 		System.out.println("\n");
+		
+		
+		
+		for(String[] rows : multiArray)
+		{
+			for(String column : rows)
+			{
+				System.out.print("| " + column + " ");
+			}
+			System.out.println("|");
+		}
+		
+		int[] numberCopy = Arrays.copyOf(numberArray,  5);
+		
+		System.out.println(Arrays.toString(numberCopy));
+		
+		int[] moreNumbers = new int[100];
+		Arrays.fill(moreNumbers, 2);
 		
 	}
 	

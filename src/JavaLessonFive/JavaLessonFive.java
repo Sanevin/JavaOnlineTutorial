@@ -1,4 +1,4 @@
-package JavaLessonFive;
+package javaLessonFive;
 import java.util.Scanner;
 
 public class JavaLessonFive {

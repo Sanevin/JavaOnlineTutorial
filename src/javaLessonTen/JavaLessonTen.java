@@ -1,11 +1,10 @@
-package javaLessonEight;
+package javaLessonTen;
 
-import java.util.Arrays;
 import org.apache.commons.lang3.ArrayUtils;
 
-@SuppressWarnings("unused")
-public class JavaLessonEight {
+public class JavaLessonTen {
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args)
 	{
 		
@@ -23,9 +22,34 @@ public class JavaLessonEight {
 		Monsters[3] = new MonsterTwo(1000, 20, 1, "George");
 		
 		MonsterTwo.redrawBoard();
+	
+	
+	
+	for(MonsterTwo m : Monsters)
+	{
+		
+		if(m.getAlive())
+		{
+			
+			int arrayItemIndex = ArrayUtils.indexOf(Monsters, m);
+			m.moveMonster(Monsters, arrayItemIndex);
+					
+			
+		}
 		
 	}
+	MonsterTwo.redrawBoard();
+	}
+}
+
+		
+		
+		
+		
+	
+
+	
 	
 	
 
-}
+

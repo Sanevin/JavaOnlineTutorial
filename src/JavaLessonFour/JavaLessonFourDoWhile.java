@@ -1,4 +1,4 @@
-package JavaLessonFour;
+package javaLessonFour;
 
 public class JavaLessonFourDoWhile {
 	
