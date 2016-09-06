@@ -2,8 +2,10 @@ package javaLessonTwelve;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+@SuppressWarnings("unused")
 public class JavaLessonTwelve {
 	
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args)
 	{
 		
