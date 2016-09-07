@@ -4,6 +4,7 @@ import java.util.*;
 
 public class JavaLessonEleven {
 	
+	@SuppressWarnings({ "unused", "rawtypes", "unchecked" })
 	public static void main(String[] args){
 		
 		ArrayList arrayListOne;
