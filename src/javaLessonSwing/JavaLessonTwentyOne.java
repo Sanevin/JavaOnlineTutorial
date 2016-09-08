@@ -8,6 +8,7 @@ import java.awt.event.*;
 
 // interfaces and GUI event handling
 
+@SuppressWarnings("serial")
 public class JavaLessonTwentyOne extends JFrame {
 	
 	JButton button1 = new JButton("Click here");
